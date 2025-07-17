@@ -1,4 +1,4 @@
-▶️ Para executar:
+Para executar:
 1. Torne o script executável:
 
 chmod +x reset-ingress-nginx.sh
@@ -7,7 +7,7 @@ chmod +x reset-ingress-nginx.sh
 
 ./reset-ingress-nginx.sh
 
-🔎 Após a instalação, valide com:
+3. Após a instalação, valide com:
 
 kubectl get pods -n ingress-nginx
 kubectl get svc -n ingress-nginx
